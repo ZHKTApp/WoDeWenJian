@@ -1,0 +1,12 @@
+subprojects {
+    apply plugin: 'com.android.library'
+    android libraryAndroid
+    repositories {
+        flatDir(dirs: "$projectDir/lib")
+    }
+    dependencies {
+        api fileTree(dir: 'libs', include: ['*.jar'])
+        api project(':modules:support')
+
+    }
+}

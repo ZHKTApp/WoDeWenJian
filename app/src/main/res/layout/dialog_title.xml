@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="312dp"
+        android:layout_height="209dp"
+        android:background="@drawable/drawable_white_bg"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_titledialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="确认提交吗?"
+            android:textColor="@color/c_green_05d"
+            android:textSize="@dimen/textsize_24sp" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="286dp"
+            android:layout_height="@dimen/common_margin_40dp"
+            android:layout_below="@id/tv_titledialog_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/drawable_search_bg"
+            android:gravity="center"
+            android:inputType="text"
+            android:lines="1"
+            android:paddingLeft="@dimen/common_margin_10dp"
+            android:paddingRight="@dimen/common_margin_8dp" />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/common_margin_40dp"
+            android:layout_below="@id/tv_titledialog_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:gravity="center"
+            android:textColor="@color/c_green"
+            android:textSize="@dimen/textsize_18sp" />
+
+        <TextView
+            android:id="@+id/tv_titledialog_cancle"
+            android:layout_width="73dp"
+            android:layout_height="@dimen/common_margin_27dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="71dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/drawable_green_bg"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_18sp" />
+
+        <TextView
+            android:id="@+id/tv_titledialog_sure"
+            android:layout_width="73dp"
+            android:layout_height="@dimen/common_margin_27dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="71dp"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/drawable_green_bg"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_18sp" />
+    </RelativeLayout>
+</FrameLayout>

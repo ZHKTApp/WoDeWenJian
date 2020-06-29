@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color><!--透明-->
+    <color name="white">#ffffff</color>
+    <color name="gray_CBCBCB">#CBCBCB</color><!--view间隔色-->
+    <color name="gray_efef">#efefef</color><!--测试题目背景色-->
+    <color name="black">#000000</color>
+    <color name="gray">#8A8A8A</color>
+    <color name="gray_3333">#333333</color>
+    <color name="gray_0047">#00478f</color>
+    <color name="blue_FF00">#FF000E8F</color>
+    <color name="gray_8888">#888888</color>
+    <color name="gray_464f">#464f55</color>
+
+    <color name="gray_8033">#80333333</color>
+    <color name="c_green">#18C1AB</color><!--顶部标题绿色-->
+    <color name="c_green_05d">#18C1AB</color><!--顶部标题绿色-->
+</resources>

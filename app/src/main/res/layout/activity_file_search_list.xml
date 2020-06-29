@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_margin_34dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="19dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="33dp"
+        android:paddingRight="@dimen/common_margin_13dp">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="6dp"
+            android:gravity="center"
+            android:drawableLeft="@mipmap/back_black"
+            android:text="返回"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/iv_item_search"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/searchfile" />
+
+        <EditText
+            android:id="@+id/et_key_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="搜索文件"
+            android:imeOptions="actionSearch"
+            android:lines="1"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvClean"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="×"
+            android:textSize="30sp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <View
+        android:layout_below="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_search"
+        android:choiceMode="singleChoice"
+        android:divider="@color/gray_CBCBCB"
+        android:dividerHeight="1dp"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/linear_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/toolevery_bkg">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="粘贴" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="取消" />
+    </RelativeLayout>
+
+</RelativeLayout>

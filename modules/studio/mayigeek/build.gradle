@@ -1,0 +1,24 @@
+apply plugin: 'kotlin-android'
+//apply plugin: 'me.tatarka.retrolambda'
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+//    api "com.squareup.retrofit2:retrofit:$RETROFIT"
+//    api "com.squareup.retrofit2:adapter-rxjava:$ADAPTER_RXJAVA"
+//    api "io.reactivex:rxandroid:$RXANDROID"
+//    api "org.ligboy.retrofit2:converter-fastjson-android:$CONVERTER_FASTJSON_ANDROID"
+//    api "org.jetbrains.kotlin:kotlin-stdlib:$KOTLIN_VERSION"
+
+    compile "io.reactivex.rxjava2:rxjava:$RXJAVA"
+    compile "io.reactivex.rxjava2:rxandroid:$RXANDROID"
+    compile "com.squareup.retrofit2:retrofit:$RETROFIT"
+    compile "com.squareup.retrofit2:converter-gson:$RETROFIT"
+    compile "com.squareup.retrofit2:adapter-rxjava2:$RETROFIT"
+}
+
+android {
+    compileOptions{
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

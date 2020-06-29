@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../library" />
+            <option value="$PROJECT_DIR$/../modules" />
+            <option value="$PROJECT_DIR$/../modules/eclipse" />
+            <option value="$PROJECT_DIR$/../modules/eclipse/wheel" />
+            <option value="$PROJECT_DIR$/../modules/studio" />
+            <option value="$PROJECT_DIR$/../modules/studio/logger-master" />
+            <option value="$PROJECT_DIR$/../modules/studio/mayigeek" />
+            <option value="$PROJECT_DIR$/../modules/studio/mqtt" />
+            <option value="$PROJECT_DIR$/../modules/studio/nestrefreshlayout" />
+            <option value="$PROJECT_DIR$/../modules/support" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+apply plugin: 'kotlin-android'
+
+android {
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api project(':modules:studio:mayigeek')
+}

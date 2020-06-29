@@ -1,0 +1,17 @@
+include ':app'
+include ':library'
+include ':modules:support'
+
+//引用的eclipse
+include ':modules:eclipse:wheel'
+
+//引用的gradle工程
+
+include ':modules:studio:mayigeek'
+include ':modules:studio:nestrefreshlayout'
+
+include ':modules:studio:logger'
+project(':modules:studio:logger').projectDir = file("modules/studio/logger-master")
+
+include ':modules:studio:mqtt'
+

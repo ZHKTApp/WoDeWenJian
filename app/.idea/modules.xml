@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/eclipse/eclipse.iml" filepath="$PROJECT_DIR$/../modules/eclipse/eclipse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/library.iml" filepath="$PROJECT_DIR$/../library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/studio/logger-master/logger.iml" filepath="$PROJECT_DIR$/../modules/studio/logger-master/logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/studio/mayigeek/mayigeek.iml" filepath="$PROJECT_DIR$/../modules/studio/mayigeek/mayigeek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/modules.iml" filepath="$PROJECT_DIR$/../modules/modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/studio/mqtt/mqtt.iml" filepath="$PROJECT_DIR$/../modules/studio/mqtt/mqtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/studio/nestrefreshlayout/nestrefreshlayout.iml" filepath="$PROJECT_DIR$/../modules/studio/nestrefreshlayout/nestrefreshlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/studio/studio.iml" filepath="$PROJECT_DIR$/../modules/studio/studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/support/support.iml" filepath="$PROJECT_DIR$/../modules/support/support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modules/eclipse/wheel/wheel.iml" filepath="$PROJECT_DIR$/../modules/eclipse/wheel/wheel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ys.iml" filepath="$PROJECT_DIR$/../ys.iml" />
+    </modules>
+  </component>
+</project>

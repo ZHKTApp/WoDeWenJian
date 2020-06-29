@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="113dp"
+    android:layout_height="match_parent"
+    android:layout_below="@id/rg_top"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <RadioButton
+        android:textSize="@dimen/textsize_18sp"
+        android:id="@+id/rb_all"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/drawable_pop_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:text="全部"
+        android:textColor="@color/color_pop_bg_top" />
+
+    <RadioButton
+        android:textSize="@dimen/textsize_18sp"
+        android:id="@+id/rb_collect"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/drawable_pop_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:text="收藏"
+        android:textColor="@color/color_pop_bg_top" />
+
+    <RadioButton
+        android:textSize="@dimen/textsize_18sp"
+        android:id="@+id/rb_local"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/drawable_pop_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:text="本地"
+        android:textColor="@color/color_pop_bg_top" />
+
+</RadioGroup>

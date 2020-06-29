@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/menu_rsfresh" />
+    <item
+        android:id="@+id/menu_mkdirandfile"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="@string/menu_mkdirandfile" />
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@drawable/ic_menu_help"
+        android:title="@string/menu_help" />
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_menu_about"
+        android:title="@string/menu_about" />
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="@string/menu_exit" />
+
+</menu>

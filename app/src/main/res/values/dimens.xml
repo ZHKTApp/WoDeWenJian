@@ -1,0 +1,64 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="line_spacing_extra">3dp</dimen>
+    <dimen name="civ_border_width">2dp</dimen>
+    <dimen name="title_height">61dp</dimen>
+    <!--margin-->
+    <dimen name="dp0">0dp</dimen>
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="common_margin_1dp">1dp</dimen>
+    <dimen name="common_margin_2dp">2dp</dimen>
+    <dimen name="common_margin_5dp">5dp</dimen>
+    <dimen name="common_margin_8dp">8dp</dimen>
+    <dimen name="common_margin_10dp">10dp</dimen>
+    <dimen name="common_margin_12dp">12dp</dimen>
+    <dimen name="common_margin_13dp">13dp</dimen>
+    <dimen name="common_margin_15dp">15dp</dimen>
+    <dimen name="common_margin_17dp">17dp</dimen>
+    <dimen name="common_margin_18dp">18dp</dimen>
+    <dimen name="common_margin_20dp">20dp</dimen>
+    <dimen name="common_margin_24dp">24dp</dimen>
+    <dimen name="common_margin_25dp">25dp</dimen>
+    <dimen name="common_margin_28dp">28dp</dimen>
+    <dimen name="common_margin_27dp">27dp</dimen>
+    <dimen name="common_margin_30dp">30dp</dimen>
+    <dimen name="common_margin_34dp">34dp</dimen>
+    <dimen name="common_margin_35dp">35dp</dimen>
+    <dimen name="common_margin_38dp">38dp</dimen>
+    <dimen name="common_margin_40dp">40dp</dimen>
+    <dimen name="home_search_bar_height">44dp</dimen>
+    <dimen name="common_margin_47dp">47dp</dimen>
+    <dimen name="common_margin_50dp">50dp</dimen>
+    <dimen name="common_margin_60dp">60dp</dimen>
+    <dimen name="common_margin_68dp">68dp</dimen>
+    <dimen name="common_margin_90dp">90dp</dimen>
+    <dimen name="common_margin_91dp">91dp</dimen>
+    <dimen name="common_margin_135dp">135dp</dimen>
+    <dimen name="common_margin_136dp">136dp</dimen>
+    <dimen name="common_margin_150dp">150dp</dimen>
+    <dimen name="diary_write_delete_photo_layout_height">50dp</dimen>
+
+
+    <!--image_width_height-->
+    <dimen name="image_small">15dp</dimen>
+    <dimen name="image_normal">35dp</dimen>
+    <dimen name="image_big">55dp</dimen>
+    <dimen name="title_yinying_height">7dp</dimen>
+
+    <!--项目通用字体大小-->
+    <dimen name="textsize_10sp">10sp</dimen>
+    <dimen name="textsize_12sp">12sp</dimen>
+    <dimen name="textsize_14sp">14sp</dimen>
+    <dimen name="textsize_16sp">16sp</dimen>
+    <dimen name="textsize_18sp">18sp</dimen>
+    <dimen name="textsize_20sp">20sp</dimen>
+    <dimen name="textsize_24sp">24sp</dimen>
+    <dimen name="textsize_27sp">27sp</dimen>
+    <dimen name="margin_737dp">737dp</dimen>
+    <dimen name="margin_396dp">396dp</dimen>
+    <dimen name="margin_29dp">29dp</dimen>
+
+</resources>

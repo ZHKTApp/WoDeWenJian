@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:layout_below="@id/rg_top"
+    android:layout_toRightOf="@id/tg_left"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/common_margin_17dp"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/tv_subject"
+        style="@style/text_18_wrap"
+        android:text="科目 :" />
+
+    <TextView
+        android:id="@+id/tv_subject_select"
+        style="@style/text_18_wrap"
+        android:layout_toRightOf="@id/tv_subject"
+        android:text="全部"
+        android:textColor="@color/c_green_05d" />
+
+    <TextView
+        android:id="@+id/tv_class"
+        style="@style/text_18_wrap"
+        android:layout_marginLeft="253dp"
+        android:layout_toRightOf="@id/tv_subject_select"
+        android:text="科目 :" />
+
+    <TextView
+        android:id="@+id/tv_class_select"
+        style="@style/text_18_wrap"
+        android:layout_toRightOf="@id/tv_class"
+        android:text="全部"
+        android:textColor="@color/c_green_05d" />
+
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="@dimen/common_margin_40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/common_margin_5dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入关键字"
+            android:paddingLeft="21dp" />
+
+        <ImageView
+            android:id="@+id/iv_serch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/add" />
+
+    </LinearLayout>
+
+</RelativeLayout>

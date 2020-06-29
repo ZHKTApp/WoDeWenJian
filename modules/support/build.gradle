@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+android libraryAndroid
+repositories {
+    flatDir(dirs: "$projectDir/lib")
+    mavenCentral()
+}
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api "com.android.support:appcompat-v7:$APPCOMPAT_V7"
+    compile "com.android.support:recyclerview-v7:$APPCOMPAT_V7"
+    api "com.android.support.constraint:constraint-layout:$CONSTRAINT_LAYOUT"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+}

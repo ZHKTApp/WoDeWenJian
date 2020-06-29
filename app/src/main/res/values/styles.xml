@@ -1,0 +1,159 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="android:Theme.NoTitleBar">-->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
+        <!--<item name="colorPrimary">@color/tabtext_bulue_28c8f4</item>-->
+        <!--<item name="colorPrimaryDark">@color/c_yellow_ff9d1b</item>-->
+        <!--<item name="colorAccent">@color/c_red_fd2020</item>-->
+    </style>
+
+
+    <style name="layout_height_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layout_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="layout_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="style_head_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textsize_18sp</item>
+    </style>
+    <!--文本 27sp 黑色-->
+    <style name="text_27_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_27sp</item>
+        <item name="android:textColor">@color/gray_3333</item>
+    </style>
+    <!--文本 18sp 黑色-->
+    <style name="text_18_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_18sp</item>
+        <item name="android:textColor">@color/gray_3333</item>
+    </style>
+    <!--文本 12sp 灰色-->
+    <style name="text_12_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_14sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <!--文本 14sp 白色-->
+    <style name="text_14_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--文本 14sp 黑色 题目中的文字-->
+    <style name="text_14_black">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_14sp</item>
+        <item name="android:textColor">@color/gray_3333</item>
+    </style>
+
+    <style name="text_18_white_green">
+        <item name="android:layout_width">87dp</item>
+        <item name="android:layout_height">@dimen/common_margin_27dp</item>
+        <item name="android:background">@drawable/drawable_green_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textsize_18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!-- name是我们在使用时要用到的资源的标志，parent是指当前的样式所继承的父类样式 -->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 隐藏标题栏 -->
+        <item name="android:background">#00000000</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置window背景透明，也就是去边框 -->
+    </style>
+    //日期筛选边框右边弹出
+
+    <style name="dialog_left" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottomRight</item>
+        <!-- name是我们在使用时要用到的资源的标志，parent是指当前的样式所继承的父类样式 -->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 隐藏标题栏 -->
+        <item name="android:background">#00000000</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置window背景透明，也就是去边框 -->
+    </style>
+    //右边弹出
+
+    <style name="AnimBottomRight" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_right_in</item>
+        <item name="android:windowExitAnimation">@anim/push_right_out</item>
+    </style>
+    //详情界面弹出框
+
+    <style name="dialog_right" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottomBottom</item>
+        <!-- name是我们在使用时要用到的资源的标志，parent是指当前的样式所继承的父类样式 -->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 隐藏标题栏 -->
+        <item name="android:background">#00000000</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置window背景透明，也就是去边框 -->
+    </style>
+    //底部弹出
+
+    <style name="AnimBottomBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="checkbox_multiselect">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/common_margin_20dp</item>
+    </style>
+
+    <style name="rb_shouxie_style" parent="text_18_wrap">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/gray_0047</item>
+        <item name="android:layout_width">@dimen/common_margin_60dp</item>
+        <item name="android:layout_marginLeft">@dimen/common_margin_30dp</item>
+        <item name="android:background">@drawable/drawable_pop_bg</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="radiobutton_top_write">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_pop_bg_top</item>
+    </style>
+
+
+</resources>
